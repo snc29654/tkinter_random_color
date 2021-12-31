@@ -13,7 +13,7 @@ class canvas_class():
     def color_set(self,color):
         while(1):
             time.sleep(0.1)
-            self.canvas.delete("view")
+            #self.canvas.delete("view")
             x = random.randint(1,400)
             y = random.randint(1,400)
             dx = 100
